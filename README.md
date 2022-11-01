@@ -55,7 +55,10 @@ Now I will have to accept the merge request before your changes are visible.
 
 After I've accepted your merge request your model will be available on the following link after replacing yourName:
 https://philipvegmond.github.io/Makeathon/files/yourName.html
-This library requires a "Marker" to be tracked:
+<br>
+It will ask you permission for your camera and motion sensors.
+This AR library requires a "Marker" to be tracked:
 ![](images/barcode6.png)
 <br>
 Aim your camera at this symbol and your 3D models will be placed on top of it.
+The app might have trouble placing the model on a monitor, printing the marker helps a lot.
