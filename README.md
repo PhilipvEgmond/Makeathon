@@ -1,8 +1,7 @@
 # View Your AR Model
 
-This repository contains a platform for you to view your 3D models in AR on your phone.
+This repository contains a platform for you to view your 3D models in AR on your phone without any coding required.
 To upload, an account is required, so create one if you don't have one already.
-It's also possible to clone the project and view it on your own local host if you prefer so.
 
 ## Your 3D Model
 
@@ -15,6 +14,8 @@ A few steps are required:
 
 - Forking the project
 - Upload 3D model
+- Duplicate .html file
+- Upload fork
 
 ### Forking the project
 
@@ -28,7 +29,7 @@ By forking the project you create your own copy to work in which later can be ad
 <br>
 Click on the models folder, here you should find all other .gltf files already uploaded.
 Click "Add file" > "Upload files".
-Here you can drag and drop your 3D file, press Commit changes when you're done.
+Here you can drag and drop your 3D file, press "Commit changes" when you're done.
 Navigate back to the models folder and you should see your model in there.
 
 ### Duplicate .html file
@@ -41,4 +42,20 @@ Paste the copied code into the empty file.
 Replace "sampleModel.gltf" in the code with your own file you uploaded before, when you're done press "Commit new file".
 ![](images/htmlFile.jpg)
 
-https://philipvegmond.github.io/Makeathon/files/testScene.html
+### Upload fork
+
+![](images/newRequest.jpg)
+Now navigate to "Pull requests" and press the "New Pull request" button.
+If you see a green checkmark with the text "Able to merge" you can press the "Create pull request" button.
+Otherwise check what's conflicting, most likely the filename you used already exists, so change that and try again.
+Give your merge a title, something like: "Merge request yourName" for example, then press "Create pull request".
+Now I will have to accept the merge request before your changes are visible.
+
+## Viewing Your Model
+
+After I've accepted your merge request your model will be available on the following link after replacing yourName:
+https://philipvegmond.github.io/Makeathon/files/yourName.html
+This library requires a "Marker" to be tracked:
+![](images/barcode6.png)
+<br>
+Aim your camera at this symbol and your 3D models will be placed on top of it.
