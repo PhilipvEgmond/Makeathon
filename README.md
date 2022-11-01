@@ -1,7 +1,7 @@
 # View Your AR Model
 
 This repository contains a platform for you to view your 3D models in AR on your phone.
-To upload an account is required, so create one if you don't have one already.
+To upload, an account is required, so create one if you don't have one already.
 It's also possible to clone the project and view it on your own local host if you prefer so.
 
 ## Your 3D Model
@@ -11,6 +11,12 @@ Because web browsers work with limited memory make sure your model does not exce
 
 ## Uploading Your Own Model
 
-A few
+A few steps are required:
+
+- Forking the project
+
+### Forking the project
+
+![](images/barcode6.png)
 
 https://philipvegmond.github.io/Makeathon/files/testScene.html
