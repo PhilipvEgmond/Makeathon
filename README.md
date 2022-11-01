@@ -17,6 +17,8 @@ A few steps are required:
 
 ### Forking the project
 
-![](images/barcode6.png)
+![](images/fork.jpg)
+Press the fork button and then Create Fork, you should now see "YourUsername/Makeathon".
+By forking the project you create a copy to work in which later can be added to the main project.
 
 https://philipvegmond.github.io/Makeathon/files/testScene.html
