@@ -10,7 +10,7 @@ Because web browsers work with limited memory make sure your model does not exce
 
 ## Uploading Your Own Model
 
-A few steps are required:
+There are 4 steps required:
 
 - Forking the project
 - Upload 3D model
@@ -35,7 +35,7 @@ Navigate back to the models folder and you should see your model in there.
 ### Duplicate .html file
 
 Now navigate to the files folder, here you should find all other .html files and my sampleFile.html.
-Open sampleFile.html and copy its content, then back out of it.
+Open sampleFile.html and copy its content, then back out of it into the files folder again.
 Press "Add file" > "Create new file".
 Give this file your own name as well and make sure to give it the .html format: yourName.html.
 Paste the copied code into the empty file.
@@ -65,6 +65,7 @@ The app might have trouble placing the model on a monitor, printing the marker h
 
 ## Changing Scale
 
+![](images/scale.jpg)
 The size of your 3D model might be too small or too big, you can change that!
 Within the main project(not your fork) open your own html file.
 Press the edit button, you can then increase or decrease the scale attribute.
