@@ -1,6 +1,6 @@
 # View Your AR Model
 
-This repository contains a platform for you to view your 3D models in AR on your phone without any coding required.
+This repository contains a platform for you to view your 3D models in AR on your phone without any coding.
 To upload, an account is required, so create one if you don't have one already.
 
 ## Your 3D Model
@@ -10,7 +10,7 @@ Because web browsers work with limited memory make sure your model does not exce
 
 ## Uploading Your Own Model
 
-There are 4 steps required:
+There are 4 short steps:
 
 - Forking the project
 - Upload 3D model
@@ -27,14 +27,15 @@ By forking the project you create your own copy to work in which later can be ad
 
 ![](images/uploadModel.jpg)
 <br>
-Click on the models folder, here you should find all other .gltf files already uploaded.
+The project consists of 3 folders called: files, images and models.
+Enter the models folder, here you should find all other .gltf files already uploaded.
 Click "Add file" > "Upload files".
 Here you can drag and drop your 3D file, press "Commit changes" when you're done.
 Navigate back to the models folder and you should see your model in there.
 
 ### Duplicate .html file
 
-Now navigate to the files folder, here you should find all other .html files and my sampleFile.html.
+Now navigate into the files folder, here you should find all other .html files and my sampleFile.html.
 Open sampleFile.html and copy its content, then back out of it into the files folder again.
 Press "Add file" > "Create new file".
 Give this file your own name as well and make sure to give it the .html format: yourName.html.
