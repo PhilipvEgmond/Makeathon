@@ -62,3 +62,13 @@ This AR library requires a "Marker" to be tracked:
 <br>
 Aim your camera at this symbol and your 3D models will be placed on top of it.
 The app might have trouble placing the model on a monitor, printing the marker helps a lot.
+
+## Changing Scale
+
+The size of your 3D model might be too small or too big, you can change that!
+Within the main project(not your fork) open your own html file.
+Press the edit button, you can then increase or decrease the scale attribute.
+Make sure the three numbers remain the same, otherwise it will throw off the dimensions of your model.
+Then name the change something like "Change Scale" and press the "Propose changes" button.
+Then press the "Create pull request" button and once more again on the following page.
+I will have to accept this change too so after that your new scale should be visible!
